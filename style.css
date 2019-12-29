@@ -1,0 +1,111 @@
+header {
+  padding: 18px;
+  color: white;
+  border-bottom: solid #202020 1px;
+  background-color: #171717;
+  background-size: cover;
+}
+
+header.borges {
+  color: white;
+  border-bottom: solid white 1px;
+  background-image: url(avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 25%;
+}
+
+header.arena {
+  text-shadow: black 5px 5px 5px;
+  color: white;
+  border-bottom: solid black 1px;
+  background-image: url(1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 73%;
+}
+
+#navbar {
+  padding-top: 16px;
+  margin-bottom: -18px;
+}
+
+.nav-tabs {
+  border-bottom: 0px;
+}
+
+.nav-tabs .nav-link.active {
+  color: #ffffff;
+  background-color: rgb(0, 118, 245);
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-tabs .nav-link {
+  color: #ffffff;
+}
+
+div.container {
+  text-align: left;
+  padding-top: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+
+p {
+  font-weight: 400;
+}
+
+.btn {
+  border: 1px solid;
+  margin-right: 32px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+a.header {
+  color: white;
+  text-decoration-line: underline;
+}
+
+ul {
+  text-align: left;
+}
+
+#disqus_wrapper {
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  background-color: #171717;
+}
+
+#disqus_wrapper {
+  margin-top: 12px;
+}
+
+#cuento {
+  display: table-caption;
+}
