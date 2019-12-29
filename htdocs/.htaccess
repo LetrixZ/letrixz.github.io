@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^fermin.ga [NC]
+RewriteRule ^$ /literatura [L]
+
+RewriteCond %{DOCUMENT_ROOT}/$1.min.$2 -f
+RewriteRule ^([^.]+)\.(html|css|js)$ /$1.min.$2 [L,NC]
